@@ -19,11 +19,11 @@ Demo here http://sinatra-example-blog.herokuapp.com
 ## Running
 
 ### pre-install directions
-    install memcached if you don't have it, to support this app
+install memcached if you don't have it, to support this app
 
-    Using Mac, run these commands:
-    `brew install memcached`
-    `brew services start memcached`
+Using Mac, run these commands:
+`brew install memcached`
+`brew services start memcached`
 
 ### install directions
     bundle install
