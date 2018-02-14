@@ -58,6 +58,22 @@ header.header {
   }
 }
 
+.grid-wrapper {
+  display: grid
+  grid-template-columns: 200px 1fr
+  grid-auto-rows: minmax(100px, auto)
+}
+
+.grid-left {
+  background-color: green
+  grid-column: 1
+}
+
+.grid-right { 
+  background-color: yellow
+  grid-column: 2
+}
+
 article.main {
   padding: 15px
 
